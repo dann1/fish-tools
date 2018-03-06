@@ -39,9 +39,7 @@ function dann1-plasma-mime -d "removes mimes"
 end
 
 function dann1-eject -a disk "eject disk powering off"
-  set disk /dev/$disk
-
-  sudo umount $disk; sudo eject $disk
+  sudo eject $disk
   udisksctl power-off -b $disk
 end
 
