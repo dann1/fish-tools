@@ -4,3 +4,4 @@
 *.todo
 *.directory
 proxy-config.fish
+config.fish
